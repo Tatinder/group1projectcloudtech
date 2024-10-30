@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CloudTech Company</title>
+    <link rel="stylesheet" href="styles.css"> <!-- page link to css-->
+</head>
+<!--Body Starts here -->
+<body>
+        <!-- Header and Navigation -->
+        <header>
+            <div class="logo">CLOUDTECH</div>
+            <nav class="navbar">
+                <a href="about.html">About</a>
+                <a href="index.html">Home</a>
+                <a href="service.html">Services</a>
+                <a href="careers.html">Careers</a>
+                <a href="contact.html">Contact</a>
+            </nav> 
+        </header>
+
+<!-- Contact Section with Form and Introductory Paragraph -->
+<section class="contact-section">
+    <div class="contact-info">
+        <p>We're here to help you! Fill out the form to reach out to our team for any questions or support requests.</p>
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- About Our Team Section -->
+<section class="team-section">
+    <h2>Meet Our Team</h2>
+    <p>Our team consists of dedicated professionals passionate about technology and customer success. Get to know the people behind CloudTech.</p>
+    <!-- Optionally add team member images/descriptions here -->
+</section>
+
+<!-- Contact Details Section -->
+<section class="contact-details">
+    <h2>Contact Details</h2>
+    <p>Email: <a href="mailto:support@cloudtech.com">support@cloudtech.com</a></p>
+    <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    <p>Address: 123 CloudTech Lane, Tech City, 12345</p>
+</section>
+
+<!-- Link to Career Page -->
+<section class="career-link">
+    <p>Interested in joining our team? <a href="careers.html">Explore Careers at CloudTech</a></p>
+</section>
+
+ <!-- Footer -->
+ <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="logo.png" alt="CloudTech Logo">
+        </div>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        &copy; 2024 CloudTech Company. All rights reserved.
+    </div>
+</footer>
+
+</body>
+
+</html>
